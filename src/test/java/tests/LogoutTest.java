@@ -15,7 +15,7 @@ public class LogoutTest extends BaseTest {
     	log.info("logout test started");
         LoginPage login=new LoginPage(driver);
         log.info("logging into the application with valid credentials");
-        login.login(RegisterTest.username,RegisterTest.password);
+        login.login("john","demo");
 
         HomePage home=new HomePage(driver);
         log.info("performing logout");

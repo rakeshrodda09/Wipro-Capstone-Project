@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T09:31:46 IST" name="ParabankSuite" finished-at="2026-03-11T09:32:03 IST" duration-ms="17492">
+  <suite started-at="2026-03-12T22:59:42 IST" name="ParabankSuite" finished-at="2026-03-12T23:00:07 IST" duration-ms="24468">
     <groups>
     </groups>
-    <test started-at="2026-03-11T09:31:46 IST" name="ParabankTests" finished-at="2026-03-11T09:32:03 IST" duration-ms="17492">
+    <test started-at="2026-03-12T22:59:42 IST" name="ParabankTests" finished-at="2026-03-12T23:00:07 IST" duration-ms="24468">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@66ea1466]" started-at="2026-03-11T09:31:53 IST" name="setup" finished-at="2026-03-11T09:31:56 IST" duration-ms="3105" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@66ea1466]" started-at="2026-03-12T22:59:53 IST" name="setup" finished-at="2026-03-12T22:59:57 IST" duration-ms="3512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@66ea1466]" started-at="2026-03-11T09:31:56 IST" name="loginTest" finished-at="2026-03-11T09:31:57 IST" duration-ms="1261" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@66ea1466]" started-at="2026-03-12T22:59:57 IST" name="loginTest" finished-at="2026-03-12T22:59:58 IST" duration-ms="1722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@66ea1466]" started-at="2026-03-11T09:31:57 IST" name="tearDown" finished-at="2026-03-11T09:31:57 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@66ea1466]" started-at="2026-03-12T22:59:58 IST" name="tearDown" finished-at="2026-03-12T22:59:59 IST" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@ec0c838]" started-at="2026-03-11T09:31:46 IST" name="setup" finished-at="2026-03-11T09:31:51 IST" duration-ms="4616" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@ec0c838]" started-at="2026-03-12T22:59:42 IST" name="setup" finished-at="2026-03-12T22:59:49 IST" duration-ms="6712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerUserTest()[pri:0, instance:tests.RegisterTest@ec0c838]" started-at="2026-03-11T09:31:51 IST" name="registerUserTest" finished-at="2026-03-11T09:31:53 IST" duration-ms="1960" status="PASS">
+        <test-method signature="registerUserTest()[pri:0, instance:tests.RegisterTest@ec0c838]" started-at="2026-03-12T22:59:49 IST" name="registerUserTest" finished-at="2026-03-12T22:59:53 IST" duration-ms="3984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@ec0c838]" started-at="2026-03-11T09:31:53 IST" name="tearDown" finished-at="2026-03-11T09:31:53 IST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@ec0c838]" started-at="2026-03-12T22:59:53 IST" name="tearDown" finished-at="2026-03-12T22:59:53 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RegisterTest -->
       <class name="tests.LogoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogoutTest@1601e47]" started-at="2026-03-11T09:31:57 IST" name="setup" finished-at="2026-03-11T09:32:01 IST" duration-ms="3607" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogoutTest@1601e47]" started-at="2026-03-12T22:59:59 IST" name="setup" finished-at="2026-03-12T23:00:02 IST" duration-ms="3617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@1601e47]" started-at="2026-03-11T09:32:01 IST" name="logoutTest" finished-at="2026-03-11T09:32:03 IST" duration-ms="2139" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@1601e47]" started-at="2026-03-12T23:00:02 IST" name="logoutTest" finished-at="2026-03-12T23:00:06 IST" duration-ms="3893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@1601e47]" started-at="2026-03-11T09:32:03 IST" name="tearDown" finished-at="2026-03-11T09:32:03 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@1601e47]" started-at="2026-03-12T23:00:06 IST" name="tearDown" finished-at="2026-03-12T23:00:07 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

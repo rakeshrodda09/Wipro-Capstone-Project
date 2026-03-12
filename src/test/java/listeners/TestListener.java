@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.*;
 import reports.ExtentManager;
 import tests.BaseTest;
+import utils.ScreenshotUtil;
 
 public class TestListener implements ITestListener {
     private static ExtentReports extent = ExtentManager.getInstance();
@@ -29,6 +30,12 @@ public class TestListener implements ITestListener {
     	log.error("Test failed:" + result.getMethod().getMethodName());
     	log.error("Failure reason:" + result.getThrowable());
         test.get().fail(result.getThrowable());
+        try {
+        	String path=ScreenshotUtil.captureScreenshot(BaseTest.driver,result.getMethod().getMethodName());
+        	test.get().addScreenCaptureFromPath(path);
+        }catch(Exception e) {
+        	e.printStackTrace();
+        }
     }
     @Override
     public void onTestSkipped(ITestResult result) {

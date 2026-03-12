@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 
 public class ScreenshotUtil {
 
-    public static String capture(WebDriver driver,String name)
+    public static String captureScreenshot(WebDriver driver,String name)
     {
         File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         String path="screenshots/failedTests/"+name+".png";

@@ -28,7 +28,7 @@ public class RegisterTest extends BaseTest {
 
         HomePage home=new HomePage(driver);
         log.info("verifying if registration is successful");
-        Assert.assertTrue(home.isLoginSuccessful());
+        Assert.assertTrue(home.isLoginSuccessful(),"Registration failed");
         log.info("user registered successfully");
         log.info("register test completed");
     }

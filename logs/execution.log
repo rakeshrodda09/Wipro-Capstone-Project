@@ -39,3 +39,677 @@
 2026-03-11 09:32:03 [main] INFO  listeners.TestListener - Test passed: logoutTest
 2026-03-11 09:32:03 [main] INFO  tests.BaseTest - closing the browser
 2026-03-11 09:32:03 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 12:22:55 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 12:23:03 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 12:23:03 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 12:23:03 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 12:23:03 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 12:23:03 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 12:23:03 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 12:23:03 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 12:23:04 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 12:23:05 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 12:23:05 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 12:23:05 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 12:23:05 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 12:23:05 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 12:23:05 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 12:23:05 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 12:23:09 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 12:23:09 [main] INFO  tests.LoginTest - login test started
+2026-03-12 12:23:09 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 12:23:09 [main] INFO  pages.LoginPage - entering username
+2026-03-12 12:23:09 [main] INFO  pages.LoginPage - entering password
+2026-03-12 12:23:09 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 12:23:10 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 12:23:10 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 12:23:10 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 12:23:10 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [false] but found [true]
+2026-03-12 12:23:10 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 12:23:11 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 12:23:14 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 12:23:14 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 12:23:14 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 12:23:14 [main] INFO  pages.LoginPage - entering username
+2026-03-12 12:23:14 [main] INFO  pages.LoginPage - entering password
+2026-03-12 12:23:14 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 12:23:15 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 12:23:15 [main] INFO  pages.HomePage - logging out
+2026-03-12 12:23:16 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 12:23:16 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 12:23:16 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 12:23:16 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 12:23:16 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 12:58:41 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 12:58:46 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 12:58:46 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 12:58:46 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 12:58:46 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 12:58:46 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 12:58:47 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 12:58:47 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 12:58:47 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 12:58:47 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 12:58:47 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 12:58:48 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 12:58:48 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 12:58:48 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 12:58:48 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 12:58:48 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 12:58:52 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 12:58:52 [main] INFO  tests.LoginTest - login test started
+2026-03-12 12:58:52 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 12:58:52 [main] INFO  pages.LoginPage - entering username
+2026-03-12 12:58:52 [main] INFO  pages.LoginPage - entering password
+2026-03-12 12:58:52 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 12:58:53 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 12:58:53 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 12:58:54 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 12:58:54 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [false] but found [true]
+2026-03-12 12:58:54 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 12:58:54 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 12:59:02 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 12:59:02 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 12:59:02 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 12:59:02 [main] INFO  pages.LoginPage - entering username
+2026-03-12 12:59:02 [main] INFO  pages.LoginPage - entering password
+2026-03-12 12:59:02 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 12:59:02 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 12:59:02 [main] INFO  pages.HomePage - logging out
+2026-03-12 12:59:05 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 12:59:05 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 12:59:05 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 12:59:05 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 12:59:05 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:00:58 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:01:02 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:01:02 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:01:02 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:01:02 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:01:02 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:01:03 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:01:03 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:01:03 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:01:04 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:01:04 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:01:04 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:01:04 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:01:04 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:01:04 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:01:04 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:01:07 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:01:07 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:01:07 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:01:07 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:01:07 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:01:08 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:01:08 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:01:08 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:01:09 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 13:01:09 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [false] but found [true]
+2026-03-12 13:01:09 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:01:09 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:01:13 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:01:13 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:01:13 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:01:13 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:01:13 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:01:13 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:01:13 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:01:13 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:01:15 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:01:15 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:01:15 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:01:15 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:01:16 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:04:36 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:04:43 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:04:43 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:04:43 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:04:43 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:04:43 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:04:45 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:04:45 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:04:45 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:04:46 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:04:46 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:04:46 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:04:46 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:04:46 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:04:46 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:04:46 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:04:50 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:04:50 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:04:50 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:04:50 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:04:50 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:04:50 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:04:50 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:04:50 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:04:51 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 13:04:51 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 13:04:51 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:04:51 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:04:56 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:04:56 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:04:56 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:04:56 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:04:56 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:04:56 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:04:56 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:04:56 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:04:59 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:04:59 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:04:59 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:04:59 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:04:59 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:07:37 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:07:41 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:07:41 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:07:41 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:07:41 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:07:41 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:07:42 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:07:42 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:07:42 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:07:43 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:07:43 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:07:43 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:07:43 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:07:43 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:07:43 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:07:43 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:07:47 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:07:47 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:07:47 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:07:47 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:07:47 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:07:47 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:07:48 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:07:48 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:07:48 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 13:07:48 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 13:07:48 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:07:48 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:07:51 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:07:51 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:07:51 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:07:51 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:07:51 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:07:51 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:07:52 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:07:52 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:07:53 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:07:53 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:07:53 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:07:53 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:07:53 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:12:10 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:12:14 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:12:14 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:12:14 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:12:14 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:12:14 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:12:14 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:12:14 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:12:15 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:12:15 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:12:15 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:12:16 [main] ERROR listeners.TestListener - Test failed:registerUserTest
+2026-03-12 13:12:16 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [true] but found [false]
+2026-03-12 13:12:16 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:12:16 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:12:20 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:12:20 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:12:20 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:12:20 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:12:20 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:12:20 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:12:20 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:12:20 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:12:20 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 13:12:20 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [true] but found [false]
+2026-03-12 13:12:23 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:12:24 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:12:27 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:12:27 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:12:27 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:12:27 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:12:27 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:12:27 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:12:28 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:12:28 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:12:29 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:12:29 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:12:29 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:12:29 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:12:29 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:16:45 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:16:49 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:16:49 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:16:49 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:16:49 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:16:49 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:16:49 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:16:49 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:16:50 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:16:50 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:16:50 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:16:50 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:16:50 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:16:50 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:16:51 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:16:54 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:16:54 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:16:54 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:16:54 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:16:54 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:16:54 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:16:56 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:16:56 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:16:56 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 13:16:56 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 13:16:56 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:16:56 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:16:59 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:16:59 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:16:59 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:16:59 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:16:59 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:17:00 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:17:00 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:17:00 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:17:02 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:17:02 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:17:02 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:17:02 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:17:02 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:25:55 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:26:01 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:26:01 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:26:01 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:26:01 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:26:01 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:26:01 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:26:01 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:26:02 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:26:02 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:26:02 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:26:02 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:26:02 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:26:02 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:26:02 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:26:03 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:26:06 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:26:06 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:26:06 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:26:06 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:26:06 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:26:06 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:26:08 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:26:08 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:26:08 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 13:26:08 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 13:26:08 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:26:08 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:26:11 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:26:11 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:26:11 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:26:11 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:26:11 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:26:11 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:26:12 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:26:12 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:26:13 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:26:13 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:26:13 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:26:13 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:26:13 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:30:25 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:30:29 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:30:29 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:30:29 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:30:29 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:30:29 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:30:30 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:30:30 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:30:30 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:30:31 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:30:31 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:30:31 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:30:31 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:30:31 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:30:31 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:30:31 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:30:35 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:30:35 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:30:35 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:30:35 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:30:35 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:30:35 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:30:37 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:30:37 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 13:30:37 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [true] but found [false]
+2026-03-12 13:30:37 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:30:38 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:30:44 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:30:44 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:30:44 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:30:44 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:30:44 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:30:44 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:30:44 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:30:44 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:30:48 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:30:48 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:30:48 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:30:48 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:30:48 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:33:24 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:33:28 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:33:28 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:33:28 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:33:28 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:33:28 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:33:29 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:33:29 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:33:29 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:33:30 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:33:30 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:33:30 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:33:30 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:33:30 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:33:30 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:33:30 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:33:34 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:33:34 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:33:34 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:33:34 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:33:34 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:33:34 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:33:35 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:33:35 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:33:35 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 13:33:35 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 13:33:35 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:33:36 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:33:40 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:33:40 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:33:40 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:33:40 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:33:40 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:33:40 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:33:41 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:33:41 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:33:42 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:33:42 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:33:42 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:33:42 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:33:42 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 13:33:52 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:33:56 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 13:33:56 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 13:33:56 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 13:33:56 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 13:33:56 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 13:33:57 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 13:33:57 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 13:33:57 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 13:33:58 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 13:33:58 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:33:58 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 13:33:58 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 13:33:58 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 13:33:58 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:33:58 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:34:02 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 13:34:02 [main] INFO  tests.LoginTest - login test started
+2026-03-12 13:34:02 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 13:34:02 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:34:02 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:34:02 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:34:02 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 13:34:02 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 13:34:03 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 13:34:03 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 13:34:03 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:34:04 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 13:34:07 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 13:34:07 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 13:34:07 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 13:34:07 [main] INFO  pages.LoginPage - entering username
+2026-03-12 13:34:07 [main] INFO  pages.LoginPage - entering password
+2026-03-12 13:34:07 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 13:34:07 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 13:34:07 [main] INFO  pages.HomePage - logging out
+2026-03-12 13:34:09 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 13:34:09 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 13:34:09 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 13:34:09 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 13:34:09 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 22:54:21 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:54:30 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 22:54:30 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 22:54:30 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 22:54:30 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 22:54:30 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 22:54:30 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 22:54:30 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 22:54:32 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 22:54:32 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 22:54:32 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:54:32 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 22:54:32 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 22:54:32 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 22:54:32 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:54:33 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:54:37 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 22:54:37 [main] INFO  tests.LoginTest - login test started
+2026-03-12 22:54:37 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 22:54:37 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:54:37 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:54:37 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:54:38 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 22:54:38 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:54:38 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 22:54:38 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [true] but found [false]
+2026-03-12 22:54:38 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:54:38 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:54:44 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 22:54:44 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 22:54:44 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 22:54:44 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:54:44 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:54:44 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:54:45 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 22:54:45 [main] INFO  pages.HomePage - logging out
+2026-03-12 22:54:45 [main] ERROR listeners.TestListener - Test failed:logoutTest
+2026-03-12 22:54:45 [main] ERROR listeners.TestListener - Failure reason:org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log Out"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1461963b6736cc7cb29d241bae08c717, findElement {value=Log Out, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49394}, goog:processID: 28080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49394/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1461963b6736cc7cb29d241bae08c717
+2026-03-12 22:54:45 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:54:45 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 22:56:28 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:56:33 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 22:56:33 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 22:56:33 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 22:56:33 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 22:56:33 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 22:56:34 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 22:56:34 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 22:56:35 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 22:56:36 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 22:56:36 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:56:36 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 22:56:36 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 22:56:36 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 22:56:36 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:56:36 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:56:40 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 22:56:40 [main] INFO  tests.LoginTest - login test started
+2026-03-12 22:56:40 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 22:56:40 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:56:40 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:56:40 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:56:41 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 22:56:41 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:56:41 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 22:56:41 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [true] but found [false]
+2026-03-12 22:56:42 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:56:42 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:56:46 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 22:56:46 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 22:56:46 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 22:56:46 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:56:46 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:56:46 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:56:47 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 22:56:47 [main] INFO  pages.HomePage - logging out
+2026-03-12 22:56:47 [main] ERROR listeners.TestListener - Test failed:logoutTest
+2026-03-12 22:56:47 [main] ERROR listeners.TestListener - Failure reason:org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log Out"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caef5ec7c4ae26ddf3eb0cd6b5700668, findElement {value=Log Out, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57523}, goog:processID: 23988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57523/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caef5ec7c4ae26ddf3eb0cd6b5700668
+2026-03-12 22:56:47 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:56:48 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 22:57:56 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:58:00 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 22:58:00 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 22:58:00 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 22:58:00 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 22:58:00 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 22:58:01 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 22:58:01 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 22:58:03 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 22:58:03 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 22:58:03 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:58:03 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 22:58:03 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 22:58:03 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 22:58:03 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:58:04 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:58:06 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 22:58:06 [main] INFO  tests.LoginTest - login test started
+2026-03-12 22:58:06 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 22:58:06 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:58:07 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:58:07 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:58:07 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 22:58:07 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:58:07 [main] ERROR listeners.TestListener - Test failed:loginTest
+2026-03-12 22:58:07 [main] ERROR listeners.TestListener - Failure reason:java.lang.AssertionError: expected [true] but found [false]
+2026-03-12 22:58:08 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:58:08 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:58:11 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 22:58:11 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 22:58:11 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 22:58:11 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:58:11 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:58:11 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:58:12 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 22:58:12 [main] INFO  pages.HomePage - logging out
+2026-03-12 22:58:12 [main] ERROR listeners.TestListener - Test failed:logoutTest
+2026-03-12 22:58:12 [main] ERROR listeners.TestListener - Failure reason:org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log Out"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea81def1dc0b517c3bc970c40277c7ef, findElement {using=link text, value=Log Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54290}, goog:processID: 1112, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54290/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea81def1dc0b517c3bc970c40277c7ef
+2026-03-12 22:58:12 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:58:13 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 22:59:06 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:59:12 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 22:59:12 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 22:59:12 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 22:59:12 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 22:59:12 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 22:59:13 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 22:59:13 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 22:59:15 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 22:59:16 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 22:59:16 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:59:16 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 22:59:16 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 22:59:16 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 22:59:16 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:59:17 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:59:24 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 22:59:24 [main] INFO  tests.LoginTest - login test started
+2026-03-12 22:59:24 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 22:59:24 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:59:24 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:59:24 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:59:27 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 22:59:27 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:59:27 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 22:59:27 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 22:59:27 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:59:27 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:59:30 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 22:59:30 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 22:59:30 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 22:59:30 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:59:30 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:59:30 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:59:32 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 22:59:32 [main] INFO  pages.HomePage - logging out
+2026-03-12 22:59:33 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 22:59:33 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 22:59:33 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 22:59:33 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:59:33 [main] INFO  listeners.TestListener - Test execution done and generating report
+2026-03-12 22:59:42 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:59:49 [main] INFO  listeners.TestListener -  Test started: registerUserTest
+2026-03-12 22:59:49 [main] INFO  tests.RegisterTest - register test started
+2026-03-12 22:59:49 [main] INFO  tests.RegisterTest - generating a new username
+2026-03-12 22:59:49 [main] INFO  tests.RegisterTest - opening register page
+2026-03-12 22:59:49 [main] INFO  pages.RegisterPage - opens the register form
+2026-03-12 22:59:51 [main] INFO  tests.RegisterTest - registering a new user with generated credentials
+2026-03-12 22:59:51 [main] INFO  pages.RegisterPage - entering registration details
+2026-03-12 22:59:52 [main] INFO  pages.RegisterPage - submitting registration form
+2026-03-12 22:59:53 [main] INFO  tests.RegisterTest - verifying if registration is successful
+2026-03-12 22:59:53 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:59:53 [main] INFO  tests.RegisterTest - user registered successfully
+2026-03-12 22:59:53 [main] INFO  tests.RegisterTest - register test completed
+2026-03-12 22:59:53 [main] INFO  listeners.TestListener - Test passed: registerUserTest
+2026-03-12 22:59:53 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:59:53 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 22:59:57 [main] INFO  listeners.TestListener -  Test started: loginTest
+2026-03-12 22:59:57 [main] INFO  tests.LoginTest - login test started
+2026-03-12 22:59:57 [main] INFO  tests.LoginTest - entering username and password and performing login
+2026-03-12 22:59:57 [main] INFO  pages.LoginPage - entering username
+2026-03-12 22:59:57 [main] INFO  pages.LoginPage - entering password
+2026-03-12 22:59:57 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 22:59:58 [main] INFO  tests.LoginTest - verifying login success on home page
+2026-03-12 22:59:58 [main] INFO  pages.HomePage - verifying login is successful or not
+2026-03-12 22:59:58 [main] INFO  tests.LoginTest - login test completed
+2026-03-12 22:59:58 [main] INFO  listeners.TestListener - Test passed: loginTest
+2026-03-12 22:59:58 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 22:59:59 [main] INFO  tests.BaseTest - opening the parabank page
+2026-03-12 23:00:02 [main] INFO  listeners.TestListener -  Test started: logoutTest
+2026-03-12 23:00:02 [main] INFO  tests.LogoutTest - logout test started
+2026-03-12 23:00:02 [main] INFO  tests.LogoutTest - logging into the application with valid credentials
+2026-03-12 23:00:02 [main] INFO  pages.LoginPage - entering username
+2026-03-12 23:00:03 [main] INFO  pages.LoginPage - entering password
+2026-03-12 23:00:03 [main] INFO  pages.LoginPage - clicking on login button
+2026-03-12 23:00:05 [main] INFO  tests.LogoutTest - performing logout
+2026-03-12 23:00:05 [main] INFO  pages.HomePage - logging out
+2026-03-12 23:00:06 [main] INFO  tests.LogoutTest - user logged out successfully
+2026-03-12 23:00:06 [main] INFO  tests.LogoutTest - logout test completed
+2026-03-12 23:00:06 [main] INFO  listeners.TestListener - Test passed: logoutTest
+2026-03-12 23:00:06 [main] INFO  tests.BaseTest - closing the browser
+2026-03-12 23:00:07 [main] INFO  listeners.TestListener - Test execution done and generating report

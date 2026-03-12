@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest {
     	log.info("login test started");
         LoginPage login=new LoginPage(driver);
         log.info("entering username and password and performing login");
-        login.login(RegisterTest.username,RegisterTest.password);
+        login.login("john","demo");
         HomePage home=new HomePage(driver);
         log.info("verifying login success on home page");
         Assert.assertTrue(home.isLoginSuccessful());

@@ -12,7 +12,7 @@ import pages.HomePage;
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    public static WebDriver driver;
     private static final Logger log = LogManager.getLogger(BaseTest.class);
     @BeforeMethod
     public void setup()

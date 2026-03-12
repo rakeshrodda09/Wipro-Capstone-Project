@@ -1,12 +1,9 @@
 package utils;
-
 import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ConfigReader {
-
     static Properties prop;
-
     static
     {
         try{
@@ -16,7 +13,6 @@ public class ConfigReader {
         }
         catch(Exception e){}
     }
-
     public static String get(String key)
     {
         return prop.getProperty(key);

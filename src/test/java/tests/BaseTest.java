@@ -1,5 +1,4 @@
 package tests;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +10,6 @@ import constants.FrameworkConstants;
 import pages.HomePage;
 
 public class BaseTest {
-
     public static WebDriver driver;
     private static final Logger log = LogManager.getLogger(BaseTest.class);
     @BeforeMethod
@@ -23,7 +21,8 @@ public class BaseTest {
     }
     @AfterMethod
     public void tearDown()
-    {log.info("closing the browser");
+    {
+    	log.info("closing the browser");
         DriverManager.quitDriver();
     }
 

@@ -1,7 +1,8 @@
 package pages;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,19 +11,22 @@ public class LoginPage {
     private static final Logger log = LogManager.getLogger(LoginPage.class);
     public LoginPage(WebDriver driver)
     {
-        this.driver=driver;
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
-    By username=By.name("username");
-    By password=By.name("password");
-    By loginBtn=By.xpath("//input[@value='Log In']");
+    @FindBy(name="username")
+    WebElement username;
+    @FindBy(name="password")
+    WebElement password;
+    @FindBy(xpath="//input[@value='Log In']")
+    WebElement loginBtn;
     public void login(String user,String pass)
     {
-    	log.info("entering username");
-        driver.findElement(username).sendKeys(user);
+        log.info("entering username");
+        username.sendKeys(user);
         log.info("entering password");
-        driver.findElement(password).sendKeys(pass);
-        log.info("clicking on login button");
-        driver.findElement(loginBtn).click();
+        password.sendKeys(pass);
+        log.info("clicking login button");
+        loginBtn.click();
     }
-
 }

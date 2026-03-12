@@ -20,6 +20,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- tests.LogoutTest -->
+      <class name="tests.RegisterTest">
+        <methods>
+          <include name="registerUserTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.RegisterTest -->
     </classes>
   </test> <!-- ParabankTests(failed) -->
 </suite> <!-- Failed suite [ParabankSuite] -->
